@@ -1,0 +1,32 @@
+.details-cell {
+  background-color: #f8f9fa;
+  padding: 0 !important;
+  
+  .order-details {
+    border-top: 2px solid #dee2e6;
+    
+    table {
+      margin-bottom: 0;
+      background-color: white;
+      border-radius: 4px;
+    }
+  }
+}
+
+.loading-spinner {
+  margin-right: 0.5rem;
+}
+
+.table {
+  th {
+    white-space: nowrap;
+  }
+}
+
+.card-header {
+  background-color: #f8f9fa;
+}
+
+.text-muted {
+  font-size: 0.9em;
+}

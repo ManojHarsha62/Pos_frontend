@@ -1,0 +1,26 @@
+.modal {
+  &.d-block {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.table {
+  th {
+    &[scope="col"] {
+      &.id-column { width: 8%; }
+      &.name-column { width: 20%; }
+      &.barcode-column { width: 15%; }
+      &.client-column { width: 15%; }
+      &.price-column { width: 15%; }
+      &.actions-column { width: 12%; }
+    }
+  }
+}
+
+.client-header {
+  margin-bottom: 1.5rem;
+}
+
+.loading-spinner {
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,24 @@
+.modal {
+  &.d-block {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.table {
+  th {
+    &[scope="col"] {
+      &.id-column { width: 15%; }
+      &.product-column { width: 40%; }
+      &.stock-column { width: 25%; }
+      &.actions-column { width: 20%; }
+    }
+  }
+}
+
+.inventory-header {
+  margin-bottom: 1.5rem;
+}
+
+.loading-spinner {
+  margin-right: 0.5rem;
+} 

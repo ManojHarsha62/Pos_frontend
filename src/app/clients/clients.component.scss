@@ -1,0 +1,25 @@
+.modal {
+  &.d-block {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.table {
+  th {
+    &[scope="col"] {
+      &.id-column { width: 10%; }
+      &.name-column { width: 25%; }
+      &.email-column { width: 25%; }
+      &.contact-column { width: 25%; }
+      &.actions-column { width: 15%; }
+    }
+  }
+}
+
+.client-header {
+  margin-bottom: 1.5rem;
+}
+
+.loading-spinner {
+  margin-right: 0.5rem;
+}
